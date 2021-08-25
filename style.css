@@ -1,0 +1,121 @@
+html {
+      box-sizing: border-box;
+}
+body {
+      background-image: url('./images/pattern-background-desktop.svg');
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      min-height: 100vh;
+      background-repeat: no-repeat;
+      font-family: 'Open Sans', sans-serif;
+}
+.wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height:100vh;
+}
+.card {
+      width: 90%;
+      max-width: 400px;
+      height: 500px;
+      overflow: hidden;
+      border-radius: 15px;
+      box-shadow: #D6E1FF 0px 10px 20px,  #D6E1FF 0px 6px 6px;
+      background: white;
+      
+}
+.card-head {
+      height: 40%;
+      width: 100%;
+      background-image: url('./images/illustration-hero.svg');
+      background-position: center bottom;
+      background-repeat: no-repeat;
+}
+.card-content {
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+}
+h1 {
+      font-size: 25px;
+      font-weight: 600;
+      line-height: .5;
+}
+.plan {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      width: 100%;
+      background-color: rgb(252, 250, 250);
+      border-radius: 10px;
+      padding: 10px;
+}
+.plan-holder{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex: .5;
+}
+.plan-content {
+      text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.plan-content .txt{
+      font-size: 15px;
+      text-align: left;
+}
+.plan-content .amt{
+      color: gray;
+      font-size: 12px;
+      text-align: left;
+}
+.img {
+      background-image: url('./images/icon-music.svg');
+      width: 50px;
+      height: 50px;
+      background-repeat: no-repeat;
+}
+label {
+      flex: .5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: bold;
+
+}
+p {
+      font-size: 12px;
+      display: flex;
+      justify-content: center;
+      justify-content: center;
+      color: gray;
+}
+button {
+      margin-top: 20px;
+      width: 100%;
+      border: none;
+      outline: none;
+      padding: 10px 0;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 12px;
+}
+button:nth-child(even) {
+      background: #1E1FCD;
+      color: white;
+}
+button:nth-child(odd) {
+      margin-top: 0;
+      background:none;
+      color: black;
+}
